@@ -27,7 +27,7 @@ LABEL INSTALL="docker run -t -i --rm --privileged -u 0:0 -v /:/host --net=host -
 LABEL io.k8s.description="PostgreSQL relational-SQL database server" \
       io.k8s.display-name="PostgreSQL 9.5" \
       io.openshift.expose-services="5432:tcp" \
-      io.openshift.tags="image,sql,database,postgres,postgresql \
+      io.openshift.tags="image,sql,database,postgres,postgresql" \
       io.openshift.non-scalable="true" \
       io.openshift.min-memory="128M" \
       io.openshift.min-cpu=1
